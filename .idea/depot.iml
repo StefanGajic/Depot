@@ -476,6 +476,29 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="i18n-js (vbundled(3.7.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/app" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/spec" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/app" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/spec" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/gemfiles" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/spec" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/i18n-js-3.7.1/gemfiles" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="jbuilder (vbundled(2.10.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />

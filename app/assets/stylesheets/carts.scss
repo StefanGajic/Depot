@@ -16,7 +16,7 @@
   }
 
   td.quantity::after {
-    content: " ×";
+    content: " x  ";
   }
 
   td.price {
@@ -25,7 +25,7 @@
   }
 
   tfoot {
-    th, th.price {
+    th, td.price {
       font-weight: bold;
       padding-top: 1em;
     }
@@ -34,7 +34,7 @@
       text-align: right;
     }
 
-    th.price {
+    td.price {
       border-top: solid thin;
     }
   }
