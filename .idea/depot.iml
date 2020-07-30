@@ -762,6 +762,27 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="pg (vbundled(1.2.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/pg-1.2.3/ext" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/pg-1.2.3/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/pg-1.2.3/spec" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/pg-1.2.3/ext" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/pg-1.2.3/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/pg-1.2.3/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/pg-1.2.3/ext" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/pg-1.2.3/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="public_suffix (vbundled(4.0.5)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1181,33 +1202,6 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sprockets-rails-3.2.1/lib" />
         </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="sqlite3 (vbundled(1.4.2)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/ext" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/faq" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/lib" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/test" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/rakelib" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/ext" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/faq" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/lib" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/test" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/rakelib" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/ext" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/faq" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/test" />
-          <root url="file://$MODULE_DIR$/.bundle/ruby/2.7.0/gems/sqlite3-1.4.2/rakelib" />
-        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
