@@ -81,4 +81,11 @@ en:
       purchase_order_pay_type:
         po_number: "PO #"
 
+  errors:
+    template:
+      body:        "There were problems with the following fields:"
+      header:
+        one:       "1 error prohibited this %{model} from being saved"
+        other:     "%{count} errors prohibited this %{model} from being saved"
+
   thanks:          "Thank you for your order"

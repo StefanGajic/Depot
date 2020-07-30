@@ -27,7 +27,6 @@
 </header>
 <section class="content">
   <nav class="side_nav">
-    <!--    TODO check this if thing here-->
     <% if @cart %>
       <div id="cart" class="carts">
         <%= render_if @cart && @cart.line_items.any?, @cart %>
@@ -35,9 +34,11 @@
     <% end %>
     <ul>
       <li><a href="/"><%= t('.home') %></a></li>
-      <li><a href="/questions"><%= t('.questions') %></a></li>
-      <li><a href="/news"><%= t('.news') %></a></li>
-      <li><a href="/contact"><%= t('.contact') %></a></li>
+      <li><a href="/questions/show"><%= t('.questions') %></a></li>
+      <li><a href="/news/show"><%= t('.news') %></a></li>
+      <li><a href="/contact/show"><%= t('.contact') %></a></li>
+<!--       Should not be available after log in-->
+      <li><a href="/login">Log in</a></li>
     </ul>
 
     <% if session[:user_id] %>
